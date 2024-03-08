@@ -7,6 +7,8 @@ System.debug(str.contains('we'));
 System.debug(str.containsIgnoreCase('Welcome'));
 System.debug(str.countMatches('welcome'));
 System.debug(email.endsWith('com'));
+System.debug(email.endsWith('com12'));
+
 
 
 
