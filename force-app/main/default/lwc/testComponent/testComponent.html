@@ -1,0 +1,18 @@
+<template>
+    <lightning-card  title="sample component">
+        <h1 class="slds-m-left_medium">Sample Data</h1> 
+        <h2 class="slds-m-left_medium">Biding js Data:{sampleStr}</h2>
+       <p class="slds-m-left_medium">Person name is:{person.name}</p>
+       <p class="slds-m-left_medium">Person age is:{person.age}</p>
+  <p>Count is:{count}</p>
+       <div class="slds-p-around_medium">
+        <lightning-input type="text" label="Enter some text" name="uname" onchange={handleChange}></lightning-input>
+        <lightning-input type="text" label="Enter some text" name="email" onchange={handleChange} class="slds-m-bottom_large"></lightning-input>
+
+        <lightning-button variant="brand" label="Increase"  onclick={handleIncrease} class="slds-m-left_x-small"></lightning-button>
+        <lightning-button variant="brand" label="Decrease" onclick={handleDecrease} class="slds-m-left_x-small"></lightning-button>
+
+    </div>
+    </lightning-card>
+
+</template>
